@@ -9,7 +9,7 @@ const Home = ({navigation}) => {
             <Text style={styles.userName}>Eric Atsu</Text>
             
             <View style={styles.actions}>
-            {['Topup', 'Receive', 'Sent', 'Loan'].map((action) => (
+            {['Sent', 'Receive', 'Loan', 'Topup'].map((action) => (
                 <TouchableOpacity key={action} style={styles.actionButton}>
                 <Text style={styles.actionText}>{action}</Text>
                 </TouchableOpacity>
@@ -19,10 +19,10 @@ const Home = ({navigation}) => {
             <Text style={styles.sectionTitle}>Transactions</Text>
             <View style={styles.transactionList}>
             {[
-                { id: 1, amount: '$300', description: 'Money Transfer' },
-                { id: 2, amount: '- $88', description: 'Grocery Shopping' },
-                { id: 3, amount: '- $5.99', description: 'Apple Store' },
-                { id: 4, amount: '- $12.99', description: 'Spotify' },
+                { id: 1, amount: '$300', description: 'Apple Store' },
+                { id: 2, amount: '- $88', description: 'Spotify' },
+                { id: 3, amount: '- $5.99', description: 'Money Transfer' },
+                { id: 4, amount: '- $12.99', description: 'Grocery' },
             ].map((transaction) => (
                 <View key={transaction.id} style={styles.transactionItem}>
                 <Text style={styles.transactionAmount}>{transaction.amount}</Text>

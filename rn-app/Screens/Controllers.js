@@ -5,9 +5,9 @@ const Controllers = () => {
   return (
     <View style={styles.container}>
       {['Change Password', 'Privacy Policy', 'Theme', 'Language', 'Contact Us', 'My Profile'].map((setting) => {
-        <Pressable key={setting} style={styles.settingItem}>
+        <View key={setting} style={styles.settingItem}>
           <Text style={styles.settingText}>{setting}</Text>
-        </Pressable>
+        </View>
       })}
     </View>
   );
