@@ -18,24 +18,30 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#f5f5f5',
   },
   cardNumber: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: '#333',
   },
   cardHolder: {
     fontSize: 18,
     marginVertical: 10,
+    color: '#333',
   },
   expiryDate: {
     fontSize: 16,
+    color: '#333',
   },
   cvv: {
     fontSize: 16,
+    color: '#333',
   },
   cardType: {
     fontSize: 16,
     marginTop: 10,
+    color: '#007bff',
   },
 });
 

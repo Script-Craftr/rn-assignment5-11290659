@@ -42,59 +42,68 @@ const Home = ({navigation}) => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      padding: 20,
-    },
-    welcome: {
-      fontSize: 18,
-      fontWeight: '600',
-    },
-    userName: {
-      fontSize: 24,
-      fontWeight: 'bold',
-    },
-    actions: {
-      flexDirection: 'row',
-      justifyContent: 'space-around',
-      marginVertical: 20,
-    },
-    actionButton: {
-      backgroundColor: '#f0f0f0',
-      padding: 15,
-      borderRadius: 10,
-    },
-    actionText: {
-      fontSize: 16,
-    },
-    sectionTitle: {
-      fontSize: 20,
-      fontWeight: '600',
-    },
-    transactionList: {
-      marginVertical: 20,
-    },
-    transactionItem: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      paddingVertical: 10,
-    },
-    transactionAmount: {
-      fontSize: 16,
-    },
-    transactionDescription: {
-      fontSize: 16,
-      color: '#555',
-    },
-    cardButton: {
-      backgroundColor: '#f0f0f0',
-      padding: 15,
-      borderRadius: 10,
-      alignItems: 'center',
-    },
-    cardText: {
-      fontSize: 16,
-    },
-  });
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#f5f5f5',
+  },
+  welcome: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#333',
+  },
+  userName: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  actions: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginVertical: 20,
+  },
+  actionButton: {
+    backgroundColor: '#007bff',
+    padding: 15,
+    borderRadius: 10,
+  },
+  actionText: {
+    fontSize: 16,
+    color: '#fff',
+  },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: '#333',
+  },
+  transactionList: {
+    marginVertical: 20,
+  },
+  transactionItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ddd',
+  },
+  transactionAmount: {
+    fontSize: 16,
+    color: '#333',
+  },
+  transactionDescription: {
+    fontSize: 16,
+    color: '#777',
+  },
+  cardButton: {
+    backgroundColor: '#007bff',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+  cardText: {
+    fontSize: 16,
+    color: '#fff',
+  },
+});
 
 export default Home
